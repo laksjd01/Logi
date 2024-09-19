@@ -14,5 +14,6 @@ body {
 
 .image-container img {
     width: 150px; /* Set the width of the images */
+ height: 100px; /* set the  height of the images*/
     margin-left: 0; /* No margin between images */
 }
