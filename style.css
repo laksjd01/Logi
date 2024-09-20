@@ -5,7 +5,8 @@ body {
     background-size: cover; /* Ensures the background covers the whole area */
     display: flex;
     justify-content: flex-end; /* Aligns the container to the right */
-    height: 100vh; /* Full height */
+    height: 1000px;; /* Full height */
+    width:1000px;;   /* Full width */
 }
 
 .image-container {
