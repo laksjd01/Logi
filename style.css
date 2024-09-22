@@ -17,7 +17,7 @@ body {
     
     background-image: url('202409091180908344023241086.jpg'); /* Background image */
     background-size: cover; /* Ensures the background covers the whole area */
-    display: block;
+    display: flex;
     justify-content: flex-end; /* Aligns the container to the right */
     height: 2070px;; /* Full height */
     width:   2200px;;   /* Full width */
