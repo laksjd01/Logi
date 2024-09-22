@@ -5,9 +5,9 @@
 .image-container img {
     width: 1000px; /* Set the width of the images */
  height:   730px; /* set the  height of the images*/
- margin-top: 1000px; /* Margin above this paragraph */
+ margin-top: 100px; /* Margin above this paragraph */
 margin:500px; /* set the  margin between background */
-    margin-bottom: 2000px; /* Margin below this paragraph */
+    margin-bottom: 200px; /* Margin below this paragraph */
     margin-left: 50px; /* set the  margin between images */
     margin-left: 50px; /* set the  margin between images */
     background-colour:orange ;
