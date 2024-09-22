@@ -1,20 +1,10 @@
 body {
-    margin: 1000px ;500px;600px;
-    padding: 200px;400px;500px;
+    
     background-image: url('202409091180908344023241086.jpg'); /* Background image */
     background-size: cover; /* Ensures the background covers the whole area */
     display: flex;
     justify-content: flex-end; /* Aligns the container to the right */
-    height: 1000px;; /* Full height */
-    width:1000px;;   /* Full width */
+    height: 72000px;; /* Full height */
+    width: 140700px;;   /* Full width */
 }
 
-.image-container {
-    display: flex; /* Aligns images in a row */
-}
-
-.image-container img {
-    width: 150px; /* Set the width of the images */
- height: 100px; /* set the  height of the images*/
-    margin-left: 500px; /* set the  margin between images */
-}
