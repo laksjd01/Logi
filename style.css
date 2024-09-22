@@ -3,13 +3,13 @@
 }
 
 .image-container img {
-    width: 20000px; /* Set the width of the images */
- height:   20000px; /* set the  height of the images*/
+    width: 2000px; /* Set the width of the images */
+ height:   2000px; /* set the  height of the images*/
  margin-top: 60000px; /* Margin above this paragraph */
 margin:500px; /* set the  margin between background */
-    margin-bottom: 60000px; /* Margin below this paragraph */
-    margin-left: 500px; /* set the  margin between images */
-    margin-left: 51000px; /* set the  margin between images */
+    margin-bottom: 600px; /* Margin below this paragraph */
+    margin-left: 50px; /* set the  margin between images */
+    margin-left: 510px; /* set the  margin between images */
     background-colour:orange ;
 }
 
@@ -17,9 +17,9 @@ body {
     
     background-image: url('202409091180908344023241086.jpg'); /* Background image */
     background-size: cover; /* Ensures the background covers the whole area */
-    display: flex;
+    display: block;
     justify-content: flex-end; /* Aligns the container to the right */
-    height: 140700px;; /* Full height */
-    width:   72000px;;   /* Full width */
+    height: 14070px;; /* Full height */
+    width:   7200px;;   /* Full width */
 }
 
