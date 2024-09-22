@@ -5,9 +5,9 @@
 .image-container img {
     width: 2000px; /* Set the width of the images */
  height:   2000px; /* set the  height of the images*/
- margin-top: 60000px; /* Margin above this paragraph */
+ margin-top: 2000px; /* Margin above this paragraph */
 margin:500px; /* set the  margin between background */
-    margin-bottom: 600px; /* Margin below this paragraph */
+    margin-bottom: 2000px; /* Margin below this paragraph */
     margin-left: 50px; /* set the  margin between images */
     margin-left: 510px; /* set the  margin between images */
     background-colour:orange ;
@@ -19,7 +19,7 @@ body {
     background-size: cover; /* Ensures the background covers the whole area */
     display: block;
     justify-content: flex-end; /* Aligns the container to the right */
-    height: 14070px;; /* Full height */
+    height: 8070px;; /* Full height */
     width:   7200px;;   /* Full width */
 }
 
