@@ -5,10 +5,10 @@ body {
     
     background-image: $background-image;
     background-size: cover; // Ensures the background covers the whole area
-    display: flex;
+    display: block;
     justify-content: flex-end; // Aligns the container to the right
-    height: 2070px; 
-width:1420px;  
+    height: 2770px; 
+width:100vh;  
     .image-container {
         display: flex; // Align images in a row
 
@@ -20,4 +20,4 @@ margin:50px; /* set the  margin between background */
     margin-bottom: 20px; /* Margin below this paragraph */
     margin-left: 50px; /* set the  margin between images */
     margin-left: 51px; /* set the  margin between images */
-    background-colour:orange ;
+    
