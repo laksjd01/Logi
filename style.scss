@@ -5,7 +5,7 @@ body {
     
     background-image: $background-image;
     background-size: cover; // Ensures the background covers the whole area
-    display: block;
+    display: flex;
     justify-content: flex-end; // Aligns the container to the right
     height: 1070px; 
 width:100vh;  
@@ -15,8 +15,8 @@ width:100vh;
         display: flex; // Align images in a row
 
         .image-container img {
-    width: 20px; /* Set the width of the images */
- height:   20px; /* set the  height of the images*/
+    width: 200px; /* Set the width of the images */
+ height:   200px; /* set the  height of the images*/
  margin-top: 60px; /* Margin above this paragraph */
 margin:50px; /* set the  margin between background */
     margin-bottom: 20px; /* Margin below this paragraph */
@@ -24,3 +24,11 @@ margin:50px; /* set the  margin between background */
     margin-left: 51px; /* set the  margin between images */
     margin-right:80px;
 margin:50px;
+@media (max-width: 576px) {
+    body {
+
+       min-height: calc(100vh - 1000px); /* Further adjust height */
+        }
+
+    }
+            }
