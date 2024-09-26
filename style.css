@@ -3,11 +3,11 @@
 }
 
 .image-container img {
-    width: 200px; /* Set the width of the images */
- height:   200px; /* set the  height of the images*/
- margin-top: 100px; /* Margin above this paragraph */
+    width: 100px; /* Set the width of the images */
+ height:   100px; /* set the  height of the images*/
+ margin-top: 300px; /* Margin above this paragraph */
 margin:50px; /* set the  margin between background */
-    margin-bottom: 200px; /* Margin below this paragraph */
+    margin-bottom: 100px; /* Margin below this paragraph */
     margin-left: 50px; /* set the  margin between images */
     margin-right:80px;
     margin-left: 50px; /* set the  margin between images */
@@ -16,13 +16,13 @@ margin:50px; /* set the  margin between background */
 
 body {
     
-    background-image: url('202409091180908344023241086.jpg'); /* Background image */
+    background-image: url('Picsart_24-09-26_15-03-59-962.jpg'); /* Background image */
     background-size: cover; /* Ensures the background covers the whole area */
     display: flex;
     justify-content: flex-end; /* Aligns the container to the right */
-    height: 1570px;
+    height: 770px;
     width:   100vh;
-    width:800px;
+    width:360px;
     height:100vh;
 }
 
