@@ -25,16 +25,20 @@ body {
     display: flex;
     flex-direction: column; /* Stack images vertically */
     align-items: center;
+    width:200px;
+    height:150px;
+    margin-left:50px;
+    margin-right:50px;
+    margin:50px;
+    margin-top:200px;
+    margin-bottom:300px;
 }
 
 .image-box {
     background-color: violet; /* Blue background for the images */
     padding: 10px; /* Optional padding around images */
-    margin: 10px; /* Space between images */
+    margin: 50px; /* Space between images */
+    margin-top:50px;
 }
 
-.center-image {
-    width: 100vw; /* Full width */
-    height: auto; /* Maintain aspect ratio */
-    max-height: 50vh; /* Limit height to avoid overflow */
-}
+
