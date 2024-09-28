@@ -35,14 +35,14 @@ body {
     display: flex;
     justify-content: space-between; /* Space between images */
     align-items: flex-start;
-    padding: 0px; /* Left and right margin for the box */
+    padding: 60px 60px 60px 60px; 
 }
 
 .image {
     width: 100px;
     height: 100px;
     cursor: pointer;
-    margin-top: 700px; 
+    margin-top: 250px; 
 }
 
 .image:not(:last-child) {
