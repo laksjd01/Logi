@@ -1,3 +1,46 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    background-image: url('Picsart_24-09-26_15-03-59-962.jpg'); // Replace with your image URL
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    width: 360px;
+    height: 720px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.background-box {
+    width: 360px;
+    height: 220px;
+    background-color: violet;
+    margin-top: 300px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: space-between; // Space between images
+    align-items: flex-start;
+    padding: 0 60px; // Left and right margin for the box
+}
+
+.image {
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+    margin-top: 0; // No top margin, handled by background box
+}
+
+.image:not(:last-child) {
+    margin-right: 30px; // Space between images
+}
 
 
 
@@ -7,19 +50,3 @@
 
 
 
-
-doctype html
-html(lang="en")
-  head
-    meta(charset="UTF-8")
-    meta(name="viewport" content="width=device-width, initial-scale=1.0")
-    title Centered Images with Blue Background
-    link(rel="stylesheet", href="styles.css")
-  body
-    .container
-      .image-box
-        a(href="Screenshot_20240914-233048_My Files.jpg", target="_blank")
-          img(src="Screenshot_20240914-233048_My Files.jpg", alt="Image 1", class="center-image")
-      .image-box
-        a(href="Screenshot_20240916-152233_Chrome.jpg", target="_blank")
-          img(src="Screenshot_20240916-152233_Chrome.jpg", alt="Image 2", class="center-image")
