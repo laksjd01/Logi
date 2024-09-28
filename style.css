@@ -27,7 +27,7 @@ body {
 }
 
 .background-box {
-    width: 900px;
+    width: 600px;
     height: 220px;
     background-color: violet;
     margin-top: 300px;
@@ -42,7 +42,7 @@ body {
     width: 100px;
     height: 100px;
     cursor: pointer;
-    margin-top: 150px; 
+    margin-top: 700px; 
 }
 
 .image:not(:last-child) {
