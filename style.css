@@ -6,40 +6,46 @@
 
 
 
+* {
+    box-sizing: border-box;
+}
+
 body {
-    width:360px;
-    height:720px;
-    width:100vh;
     margin: 0;
     height: 100vh;
-    background-image: url('Picsart_24-09-26_15-03-59-962.jpg'); /* Replace with your background image */
-    background-size: cover; /* Cover the entire body */
-    background-position: center; /* Center the background image */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden; /* Prevent scrolling */
+    background-image: url(''); /* Replace with your image URL */
+    background-size: cover;
+    background-position: center;
 }
 
 .container {
+    width: 360px;
+    height: 720px;
+    margin: 0 auto;
     display: flex;
-    flex-direction: column; /* Stack images vertically */
-    float:left;
-    width:20px;
-    height:15px;
-    margin-left:50px;
-    margin-right:50px;
-    margin:50px;
-    margin-top:20px;
-    margin-bottom:30px;
+    flex-direction: column;
+    align-items: center;
 }
 
-.image-box {
-    background-color: violet; /* Blue background for the images */
-    padding: 10px; /* Optional padding around images */
-    margin: 50px; /* Space between images */
-    margin-top:50px;
-    float:left;
+.background-box {
+    width: 360px;
+    height: 220px;
+    background-color: violet;
+    margin-top: 300px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: space-between; /* Space between images */
+    align-items: flex-start;
+    padding: 0 60px; /* Left and right margin for the box */
 }
 
+.image {
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+    margin-top: 0; /* No top margin, handled by background box */
+}
 
+.image:not(:last-child) {
+    margin-right: 30px; /* Space between images */
+}
