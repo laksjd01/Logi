@@ -1,40 +1,46 @@
 $background-image: url('Picsart_24-09-26_15-03-59-962'); // Background image path
 $image-width: 150px; // Width of the images
 
+* {
+    box-sizing: border-box;
+}
+
 body {
-    
-    background-image: $background-image;// Replace with your background image
-    
     margin: 0;
     height: 100vh;
-    width:100vh;
-    height:720px;
-    width:360px;
-    background-size: cover; // Cover the entire body
-    background-position: center; // Center the background image
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden; // Prevent scrolling
+    background-image: url('Picsart_24-09-26_15-03-59-962.jpg'); // Replace with your image URL
+    background-size: cover;
+    background-position: center;
+}
 
-    .container {
-        display: flex;
-        flex-direction: column; // Stack images vertically
-        align-items: center;
-width:20px;
-    height:15px;
-    margin-left:50px;
-    margin-right:50px;
-    margin:50px;
-    margin-top:20px;
-    margin-bottom:30px;
-    
-        .image-box {
-            background-color: violet; // Violet background for the images
-            padding: 10px; // Optional padding around images
-            margin: 50px; /* Space between images */
-    margin-top:50px;
-            
-            
-    }
-    
+.container {
+    width: 360px;
+    height: 720px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.background-box {
+    width: 360px;
+    height: 220px;
+    background-color: violet;
+    margin-top: 300px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: space-between; // Space between images
+    align-items: flex-start;
+    padding: 0 60px; // Left and right margin for the box
+}
+
+.image {
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+    margin-top: 0; // No top margin, handled by background box
+}
+
+.image:not(:last-child) {
+    margin-right: 30px; // Space between images
+}
