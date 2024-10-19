@@ -20,12 +20,12 @@ body {
 body {
     margin: 0;
     height: 100vh;
-    background-image:url('Screenshot_20241014-125605_Samsung%20Notes.jpg');
+    background-image:url('images (21).jpeg');
     background-size: cover;
     background-position: center;
     @media (max-width: 768px) {
     body {
-        background-image: ; /* Background for mobile */
+        background-image:url('Screenshot_20241014-125605_Samsung%20Notes.jpg') ; /* Background for mobile */
     }
 }
 
