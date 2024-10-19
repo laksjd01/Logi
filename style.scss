@@ -1,16 +1,18 @@
+$desktop-background: url('images (21).jpeg');
+$mobile-background: url('Screenshot_20241014-125605_Samsung%20Notes.jpg');
 
-
-* {
-    box-sizing: border-box;
-}
 
 body {
     margin: 0;
     height: 100vh;
-  
+  background-image: $desktop-background;
     background-size: cover;
     background-position: center;
+    @media (max-width: 768px) {
+        background-image: $mobile-background; // Background for mobile
+    }
 }
+
 
 .container {
     
@@ -42,19 +44,4 @@ body {
 .image:not(:last-child) {
     margin-right: 30px; // Space between images
 }
-Mobile styles
-.image-container {
-  background-image: url('Screenshot_20241014-125605_Samsung%20Notes.jpg');
-}
 
-
-
-Desktop styles
-@media (min-width: 768px) {
-  body {
-    background-image: url('images (21).jpeg');
-  }
-
-
-  }
-}
