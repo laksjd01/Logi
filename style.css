@@ -1,21 +1,32 @@
-
-
-
-
-
-
-
-
-* {
-    box-sizing: border-box;
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('gochi.jpg'); /* Default background for desktop */
+    background-size: cover;
+    background-position: center;
 }
+
+@media (max-width: 768px) {
+    body {
+        background-image: url('giti.jpg'); /* Background for mobile */
+    }
+}
+
+
+
+
+
 
 body {
     margin: 0;
     height: 100vh;
-    
+    background-image:url('Screenshot_20241014-125605_Samsung%20Notes.jpg');
     background-size: cover;
     background-position: center;
+    @media (max-width: 768px) {
+    body {
+        background-image: ; /* Background for mobile */
+    }
 }
 
 .container {
