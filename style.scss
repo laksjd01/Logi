@@ -42,14 +42,14 @@ body {
 .image:not(:last-child) {
     margin-right: 30px; // Space between images
 }
-// Mobile styles
+Mobile styles
 .image-container {
   background-image: url('Screenshot_20241014-125605_Samsung%20Notes.jpg');
 }
 
 
 
-// Desktop styles
+Desktop styles
 @media (min-width: 768px) {
   body {
     background-image: url('images (21).jpeg');
